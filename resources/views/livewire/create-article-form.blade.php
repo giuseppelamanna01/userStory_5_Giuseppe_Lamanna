@@ -50,7 +50,6 @@
                         <div class="row">
                             <div class="col-12">
 
-                                ...code
                                 <p>Photo preview:</p>
                                 <div class="row border border-4 border-success routned shadow py-4">
                                     @foreach ($images as $key => $image)

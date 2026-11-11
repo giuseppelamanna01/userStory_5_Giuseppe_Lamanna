@@ -14,6 +14,6 @@ class IsRevisor
         if (Auth::check() && Auth::user()->is_revisor) {
             return $next($request);
         }
-        return redirect()->route('homepage')->with('errorMessage', 'Zona riservata ai revisori');
+        return redirect()->route('home')->with('errorMessage', 'Zona riservata ai revisori');
     }
 }
